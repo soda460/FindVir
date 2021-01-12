@@ -3,7 +3,14 @@
 
 Briefly, virulence genes were detected by blasting reference sequences (virulence genes) against a NCBI Blast+ protein database containing CDS from genomes of all strains (244) included in DPL paper.
 
-## Preparation of a database of CDS from all strains!
+## Installation
+
+git clone https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git
+
+conda env create -f ./conda/jupyter_biopython.yml
+
+
+## Preparation of a database of CDS from all strains
 
 Extraction of the CDS and header naming was done with BioPython (see the Jupyter Notebook)
 
@@ -40,6 +47,17 @@ cd-hit -i intimin.pep -o intimin90
 ```
 
 The resulting 11 divergent sequences were used as queries to detect intimin genes.
+
+
+## Remote repositories
+
+Exact copies of this project exist at two locations :
+
+old-origin	https://github.com/soda460/FindVir.git (fetch)
+old-origin	https://github.com/soda460/FindVir.git (push)
+origin	https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git (fetch)
+origin	https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git (push)
+
 
 ## Contributors
 
