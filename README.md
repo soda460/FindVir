@@ -53,10 +53,10 @@ The resulting 11 divergent sequences were used as queries to detect intimin gene
 
 Exact copies of this project exist at two locations :
 
-old-origin	https://github.com/soda460/FindVir.git (fetch)
-old-origin	https://github.com/soda460/FindVir.git (push)
-origin	https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git (fetch)
-origin	https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git (push)
+old-origin	https://github.com/soda460/FindVir.git (fetch)  
+old-origin	https://github.com/soda460/FindVir.git (push)  
+origin	https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git (fetch)  
+origin	https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git (push)  
 
 
 ## Contributors
