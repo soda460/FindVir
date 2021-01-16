@@ -5,10 +5,13 @@ Briefly, virulence genes were detected by blasting reference sequences (virulenc
 
 ## Installation
 
-git clone https://gccode.ssc-spc.gc.ca/ac_/dpl/gene_detection/virulence_gene_detection.git
+```shell
+git clone https://github.com/soda460/FindVir
+```
 
+```shell
 conda env create -f ./conda/jupyter_biopython.yml
-
+```
 
 ## Preparation of a database of CDS from all strains
 
@@ -36,11 +39,11 @@ To detect enterohaemolysin (*ehxA*) and porcine attaching and effacing-associate
 
 ## Detection of *bfp* genes
 
-CDS from bfp genes encoded on Escherichia coli B171 plasmid pB171 described under the Genbank Accession number AB024946 ( Abraham et al. Year) were used as distinct queries to screen for the *bfp* genes.
+CDS from *bfp* genes encoded on Escherichia coli B171 plasmid pB171 described under the Genbank Accession number AB024946 ( Abraham et al. Year) were used as distinct queries to screen for the *bfp* genes.
 
 ## Detection of *eae* sequences
 
-The 143 complete eae sequences referenced in Xiong et al. 2016  were clustered with CD-HIT in divergent sequences showing no more than 90% of similarity
+The 143 complete eae sequences referenced in Xiong et al. 2016  were clustered with CD-HIT in divergent sequences showing no more than 90% of similarity.
 
 ```shell
 cd-hit -i intimin.pep -o intimin90 
