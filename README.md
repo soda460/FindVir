@@ -1,7 +1,8 @@
 
-# FindVir : a procedure to detect virulence genes in bacterial strains
+# FindVir : a procedure to detect virulence genes encountered in E. coli and relevant to the porcine post-weaning diarrhea
 
-Briefly, virulence genes were detected by blasting reference sequences (virulence genes) against a NCBI Blast+ protein database containing CDS from genomes of all strains (244) included in DPL paper.
+This tool allows to detect virulence genes by blasting reference sequences (specific virulence genes) against a NCBI Blast+ protein database containing CDS from genomes of all the strains included in « Resistance determinants and their genetic context in enterobacteria from a longitudinal study of pigs reared under various husbandry conditions » Poulin-Laprade et al. AEM 2021.
+
 
 ## Installation
 
